@@ -1,5 +1,15 @@
 # Lab - 02
 
+___
+# Lab - 03
+
+___
+
+# Lab - 04
+Driver: Michael Maker
+Navigator: Matt Rangel
+We worked on encoding functions together.
+___
 ## About Me
 
 I built an about me page that has some fun interactions so we can learn about the user as well as giving the user some information about myself.
