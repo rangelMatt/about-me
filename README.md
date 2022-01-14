@@ -1,22 +1,35 @@
-# Lab - 02
+# About me
 
-___
-# Lab - 03
+____
 
-___
+## Lab - 02: about-me-extend-game
 
-# Lab - 04
+Built a webpage to inform the user about myself while sharpening my JavaScript, CSS, and HTML skills. This included interacting with the user by prompting five questions and returning alerts.
+
+____
+
+## Lab - 03: about-me-extend-game
+
+Created a couple more questions that utilizes `for...loop` and `while...loop`. This involved `if...else` statements as well as accessing an array.
+____
+
+## Lab - 04
+
+Worked on Pair Programming in eachothers about-me files. We were able to excercise the pull function in github as well as eachother vocabularies and knowledge of coding.
+
 Driver: Michael Maker
 Navigator: Matt Rangel
 We worked on encoding functions together.
-___
+
+____
+
 ## About Me
 
 I built an about me page that has some fun interactions so we can learn about the user as well as giving the user some information about myself.
 
-> ## Author: Matt Rangel
+## Author: Matt Rangel
 
-> ## Links and Resources
+## Links and Resources
 
 * [Matt's Git Hub Repo](https://github.com/rangelMatt/about-me.git);
 * More references to come
