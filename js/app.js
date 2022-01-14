@@ -126,30 +126,15 @@ guessesClue();
 
 //7th Q
 function guessMovie(){
+
   let lastMovie = ['Moana', 'Cabin in the Woods', 'Encanto', 'Dont look up'];
   let movieGuesses = 6;
   let rightAnswer = false;
-  /*
-  while(movieGuesses){
-    let userMovie = prompt('What\'s the last movie I watched?').toLowerCase();
-
-    for(let i = 0; i < lastMovie.length; i++){
-      if (userMovie === lastMovie[i]){
-        alert(`You guessed right! ${userMovie} was one of the last movies I have watched in 3 months!`);
-        rightAnswer = true;
-        break;
-      }
-    }
-
-    movieGuesses--;
-
-  }
-  */
 
   for(let j = 0; j < movieGuesses; j++){
-    let userMovie = prompt('What\'s the last movie I watched?').toLowerCase();
+    let userMovie = prompt('What\'s the last movie I watched?');
     for(let i = 0; i < lastMovie.length; i++){
-      if(userMovie === lastMovie[i]){
+      if(userMovie == lastMovie[i]){
         rightAnswer = true;
         break;
       }
@@ -157,21 +142,20 @@ function guessMovie(){
     if (rightAnswer){
       console.log(`You guessed right! ${userMovie} was one of the last movies I have watched in 3 months!`);
       alert(`You guessed right! ${userMovie} was one of the last movies I have watched in 3 months!`);
-      counter++;
       break;
     } else {
+      console.log('Nope, haven\'t seen it.');
       alert('Nope, haven\'t seen it.');
     }
   }
   if(rightAnswer === false){
-    alert(`Correct answers were: ${lastMovie[0]}, ${lastMovie[1]}, ${lastMovie[2]}, ${lastMovie[3]}.`);
+    console.log(`Correct answers were: ${lastMovie[0]}, ${lastMovie[1]}, ${lastMovie[2]}, ${lastMovie[3]}.`);
   }
 }
+
 guessMovie();
 
 //FINAL ALERT
 alert(`Thanks for playing ${user}! I am a Code Fellow that does not like sweets. I live in a part in California that is not Snowing. This quarantine sometimes makes me feel like I'm in groundhogs day! But that's ok, because I get to learn cool things by interacting through my monitor!`);
 
 alert(`Thanks ${user}! You have answered ${counter} questions correctly.`);
-
-
