@@ -96,10 +96,10 @@ answerFive();
 function guessesClue(){
   let myNumber = 10;
   let clueGuesses = 4;
-  
+
   //let foundNumber = false;
   //let userNumber = prompt('What number am I thinking of?');
-  
+
   while(clueGuesses !== 0){
     let userNumber = prompt('What number am I thinking of?');
     if(parseInt(userNumber) === myNumber){
@@ -132,7 +132,7 @@ function guessMovie(){
   /*
   while(movieGuesses){
     let userMovie = prompt('What\'s the last movie I watched?').toLowerCase();
-  
+
     for(let i = 0; i < lastMovie.length; i++){
       if (userMovie === lastMovie[i]){
         alert(`You guessed right! ${userMovie} was one of the last movies I have watched in 3 months!`);
@@ -140,12 +140,12 @@ function guessMovie(){
         break;
       }
     }
-  
+
     movieGuesses--;
-  
+
   }
   */
-  
+
   for(let j = 0; j < movieGuesses; j++){
     let userMovie = prompt('What\'s the last movie I watched?').toLowerCase();
     for(let i = 0; i < lastMovie.length; i++){
