@@ -1,6 +1,5 @@
 'use strict';
 
-// console.log('Hello Goodbye');
 let counter = 0;
 
 let user = prompt('Hi! What is your name?');
@@ -12,11 +11,11 @@ function answerOne(){
   let oneAnswer = prompt('Am I a Code Fellow?').toLowerCase();
 
   if(oneAnswer === 'yes' || oneAnswer === 'y') {
-    // console.log('Yes I am!');
+
     alert('Yes I am!');
     counter++;
   } else if(oneAnswer === 'no' || oneAnswer === 'n') {
-    // console.log('Try again');
+
     alert('Try again');
   } else {
     alert('Please respond with a yes or no');
@@ -29,10 +28,10 @@ function answerTwo(){
   let twoAnswer = prompt('Do I like sweets?').toLowerCase();
 
   if(twoAnswer === 'yes' || twoAnswer === 'y') {
-    // console.log('Wierd, but, try again.');
+
     alert('Wierd, but, try again.');
   } else if(twoAnswer === 'no' || twoAnswer === 'n') {
-    // console.log('That is correct. I do not like sweets as much as the other guy.');
+
     alert('That is correct. I do not like sweets as much as the other guy.');
     counter++;
   } else {
@@ -46,10 +45,10 @@ function answerThird(){
   let thirdAnswer = prompt('Is it snowing?').toLowerCase();
 
   if(thirdAnswer === 'yes' || thirdAnswer === 'y') {
-    // console.log('Not from where I can see.');
+
     alert('Not from where I can see.');
   } else if(thirdAnswer === 'no' || thirdAnswer === 'n') {
-    // console.log('That is correct. No snow out my window.');
+
     alert('That is correct. No snow out my window.');
     counter++;
   } else {
@@ -63,11 +62,11 @@ function answerFour(){
   let fourAnswer = prompt('Do you feel like your in Groundhogs Day?').toLowerCase();
 
   if(fourAnswer === 'yes' || fourAnswer === 'y') {
-    // console.log('Yea, but thats ok');
+
     alert('Yea, but thats ok');
     counter++;
   } else if(fourAnswer === 'no' || fourAnswer === 'n') {
-    // console.log('You sure?');
+
     alert('You sure?');
   } else {
     alert('Please respond with a yes or no');
@@ -80,11 +79,11 @@ function answerFive(){
   let fiveAnswer = prompt('Are you staring at a monitor?').toLowerCase();
 
   if(fiveAnswer === 'yes' || fiveAnswer === 'y') {
-    // console.log('Yup, learning things!');
+
     alert('Yup, learning things!');
     counter++;
   } else if(fiveAnswer === 'no' || fiveAnswer === 'n') {
-    // console.log('How else do I do this great stuff?');
+
     alert('How else do I do this great stuff?');
   } else {
     alert('Please respond with a yes or no');
@@ -97,22 +96,19 @@ function guessesClue(){
   let myNumber = 10;
   let clueGuesses = 4;
 
-  //let foundNumber = false;
-  //let userNumber = prompt('What number am I thinking of?');
-
   while(clueGuesses !== 0){
     let userNumber = prompt('What number am I thinking of?');
     if(parseInt(userNumber) === myNumber){
-      // console.log('Congrats! You guessed the number!');
+
       alert('Congrats! You guessed the number!');
       counter++;
       break;
     } else if (userNumber < myNumber){
-      // console.log('Your number is to low. Please try again.');
+
       alert('Your number is to low. Please try again.');
       clueGuesses--;
     } else if(userNumber > myNumber){
-      // console.log('Your number is to high. Please try again.');
+
       alert('Your number is to high. Please try again.');
       clueGuesses--;
     } if(clueGuesses === 0){
@@ -156,6 +152,5 @@ function guessMovie(){
 guessMovie();
 
 //FINAL ALERT
-alert(`Thanks for playing ${user}! I am a Code Fellow that does not like sweets. I live in a part in California that is not Snowing. This quarantine sometimes makes me feel like I'm in groundhogs day! But that's ok, because I get to learn cool things by interacting through my monitor!`);
+alert(`Thanks for playing ${user}! I am a Code Fellow that does not like sweets. I live in a part in California that is not Snowing. This quarantine sometimes makes me feel like I'm in groundhogs day! But that's ok, because I get to learn cool things by interacting through my monitor! By the by, you have answered ${counter} questions correctly.`);
 
-alert(`Thanks ${user}! You have answered ${counter} questions correctly.`);
