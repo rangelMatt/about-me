@@ -23,6 +23,34 @@ We worked on encoding functions together.
 
 ____
 
+## Lab - 05a,b,c
+
+Worked on Git Branches, how to make them and switch in and out of them while merging to GitHub.
+
+Finished and deployed `About Me` web page with some for loop functions and questions and answers about myself.
+
+____
+
+## Lab - 06
+
+This lab involved setting a new code project based off of `Setting up a New 201 Code Project` template.
+
+The Salmon Cookie project includes the below items:
+
+1) 5 different cities
+
+2) Each city contains open and close times
+
+3) Each open and close times have total amount of cookies.
+
+For this exercise we create objects with properties of city names, random functions to get random number of customers. A function that worked off of random number of customers to get random number of cookies.
+
+We used helper functions to use up less code and lines, which helped the JS page look sleeker.
+
+Most importantly, we implemented DOM to edit and add HTML code.
+
+__
+
 ## About Me
 
 I built an about me page that has some fun interactions so we can learn about the user as well as giving the user some information about myself.
@@ -32,6 +60,7 @@ I built an about me page that has some fun interactions so we can learn about th
 ## Links and Resources
 
 * [Matt's Git Hub Repo](https://github.com/rangelMatt/about-me.git);
+* [MDN Web Docs](https://developer.mozilla.org/en-US/);
 * More references to come
 
 > ## Reflections and Comments
