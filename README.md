@@ -49,6 +49,12 @@ We used helper functions to use up less code and lines, which helped the JS page
 
 Most importantly, we implemented DOM to edit and add HTML code.
 
+____
+
+## Lab - 07
+
+An extension from lab 06, with the same data, we created a table out and populated it with the city and cookie data. We did this by utilizing constructors and prototype functions
+
 __
 
 ## About Me
