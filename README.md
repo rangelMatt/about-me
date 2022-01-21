@@ -57,6 +57,21 @@ An extension from lab 06, with the same data, we created a table out and populat
 
 __
 
+## Lab - 08a and 08b
+
+Worked on HTML and CSS wire fram exercise by building a web page to mirror the one in the assignment using multiple elements. The elements included photo placement holders, a title, some writing that could be a description, and possible a button. These were placed in the header, body, and footer.
+
+For part b, continued to work on salmon cookie exercise by working on the CSS styling and added some google fonts.
+
+__
+
+## Lab - 09
+
+We worked on add a Form in our salmon cookies sales html page. It included asking for input that we would pass along into an eventListener in the javascript page. Which we then provided some code pulling data from the previous salmon cookie assignments, and then added into a row onto the table in the sales page populating the tables appropriately with cookies per hour for a desired city.
+
+__
+
+
 ## About Me
 
 I built an about me page that has some fun interactions so we can learn about the user as well as giving the user some information about myself.
