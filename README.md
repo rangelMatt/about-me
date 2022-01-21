@@ -71,7 +71,6 @@ We worked on add a Form in our salmon cookies sales html page. It included askin
 
 __
 
-
 ## About Me
 
 I built an about me page that has some fun interactions so we can learn about the user as well as giving the user some information about myself.
